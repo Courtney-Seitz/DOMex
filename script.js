@@ -38,5 +38,11 @@ ul.append(newLi);
 const list = document.querySelector('ol');
 const listItems = list.children;
 for (let listItem of listItems) {
-    listItem.style.backgroundColor = "green";
-    }
+listItem.style.backgroundColor = "green";
+};
+
+//12. Remove the div with a class of footer
+const footer3 = document.querySelector('div.footer');
+footer3.remove();
+
+
